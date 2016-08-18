@@ -85,7 +85,7 @@ class Car
     @turn_signal = "off"
   end
 
-  def notify_turn (x)
+  def change_turn (x)
     if x=="right"
       @turn_signal = x
       p "You are turning right"
